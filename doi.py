@@ -58,7 +58,7 @@ def create_book_xml():
         year.text = pub_year
 
     # DOI Data
-    book_doi_prefix = "10.69592/"
+    book_doi_prefix = "10.xxxxx/"
     book_doi = input("Enter the DOI of the book (without prefix): ")
     
     # Derive ISBN from DOI
